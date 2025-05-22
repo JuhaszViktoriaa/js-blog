@@ -1,0 +1,21 @@
+{
+    "name": "usersproject",
+    "verion": "1.0.0",
+    "main": "app.js",
+    "type": "module",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon app.js"
+    },
+    "keywords": [],
+    "author": "c0juhvik",
+    "license": "ISC",
+    "description": "users api",
+    "dependencies": {
+        "better-sqlite3": "^11.10.0",
+        "express": "5.1.0"
+    },
+    "devDependencies": {
+        "nodemon": "3.1.10"
+    }
+}
